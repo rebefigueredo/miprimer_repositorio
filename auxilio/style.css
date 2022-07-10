@@ -1,0 +1,89 @@
+body {
+    font-family: fantasy;
+color: rgb(250, 155, 120);
+font-size: 1.2rem;
+line-height: 1.2em;
+background-color: #f98484
+}
+
+p {
+    margin-bottom: 1.6em;
+}
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+#img-seccion1 {
+display: flex;
+
+}
+    
+.header {
+    background: rgb(238, 160, 131);
+    margin: 0;
+    padding: 2rem 0 ;
+    text-decoration: salmon;
+}
+
+
+
+.header {
+    color: black;
+    text-decoration: none;
+    align-items: center;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.logo {
+letter-spacing: 5px;
+font-size: 1.3em;
+}
+
+.menu-icon {
+   display: none; 
+}
+
+.logo-nav-container {
+   display: flex; 
+   justify-content: space-between;
+   text-decoration: none;
+   flex-wrap: wrap;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0,4s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover {
+    background: rgb(241, 186, 148);
+}
+.main {
+    padding-top: 12rem;
+}
+
+
+.footer {
+    background: rgb(177, 156, 149);
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+
